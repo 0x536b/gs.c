@@ -14,8 +14,11 @@ chmod +x run.sh # might be required
 ./run.sh
 ```
 - The final render is the file `render_gs_c.png`
-
-
+- You can edit the following line in `gs.c` to render different views in the dataset
+```c
+// change 10 to different view. This num is the image ID in the cameras.json or the dataset
+#define TEST_IMG_ID 10 
+```
 
 ## TODO
 - [ ] Port to pthreads or openMP for multithreading
