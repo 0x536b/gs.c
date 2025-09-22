@@ -21,7 +21,7 @@ Author : Suresh (0x536b)
 #define SCALING_MOD 1
 
 #define TEST_IMG_ID 10
-#define TEST_IMG_SCALE 2
+#define TEST_IMG_SCALE 4
 
 // #define IMAGE_W 1920
 // #define IMAGE_H 1080
