@@ -1,0 +1,15 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: gs.c
+message: >-
+  A single C file Gaussian Splatting renderer with no
+  external dependency.
+type: software
+authors:
+  - given-names: Sureshkumar
+    family-names: Senthilkumar
+    orcid: 'https://orcid.org/0000-0001-7508-5801'
+repository-code: 'https://github.com/0x536b/gs.c'
+license: MIT

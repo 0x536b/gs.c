@@ -1,6 +1,6 @@
 # `gs.c` = A single C file Gaussian Splatting renderer
 
-This project is an accurate(to the best of my knowledge) implementation of the Gaussian Splatting project's rendering pipeline. I wrote this program to learn both `C` and `GS` from scratch. Inspired by [Karpathy's llm.c](https://github.com/karpathy/llm.c), I wrote it in a single C file with no external dependency. Just use the `-lm` math flag while compiling. 
+This project is an accurate(to the best of my knowledge) implementation of the [Gaussian Splatting](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/) project's rendering pipeline. I wrote this program to learn both `C` and `GS` from scratch. Inspired by [Karpathy's llm.c](https://github.com/karpathy/llm.c), I wrote it in a single C file with no external dependency. Just use the `-lm` math flag while compiling. 
 
 
 ## Requirements
@@ -19,6 +19,13 @@ chmod +x run.sh # might be required
 // change 10 to different view. This num is the image ID in the cameras.json or the dataset
 #define TEST_IMG_ID 10 
 ```
+## References
+- [Official Implementation by the GS authors](https://github.com/graphdeco-inria/gaussian-splatting/tree/main)
+- [hbb1/torch-splatting](https://github.com/hbb1/torch-splatting)
+- [MrNeRF's C++/CUDA implementation](https://github.com/MrNeRF/gaussian-splatting-cuda)
+- [NeRF studio's gsplat](https://github.com/nerfstudio-project/gsplat/tree/bbc9e98fa9add8b355b91b69096ec3b1271a9f46)
+- [you will never ask about pointers again after watching this video](https://www.youtube.com/watch?v=2ybLD6_2gKM)
+- [OpenSplat](https://github.com/pierotofy/OpenSplat/blob/main/rasterizer/gsplat-cpu/gsplat_cpu.cpp)
 
 ## TODO
 - [ ] Port to pthreads or openMP for multithreading
