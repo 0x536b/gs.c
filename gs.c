@@ -20,7 +20,7 @@ Author : Suresh (0x536b)
 #define MAX_LINE_LENGTH 500
 #define SCALING_MOD 1
 
-#define TEST_IMG_ID 8
+#define TEST_IMG_ID 10
 #define TEST_IMG_SCALE 2
 
 // #define IMAGE_W 1920
@@ -1466,10 +1466,10 @@ int main()
     
     
 
-    int idx_i = 1;
-    int idx_j = 0;
-    // int idx_i = 9999;
-    // int idx_j = 9999;
+    // int idx_i = 1;
+    // int idx_j = 0;
+    int idx_i = 9999;
+    int idx_j = 9999;
     int pixel_idx;
     for (i = 0; i < tile_grid[0]; i++) {
         for (j = 0; j < tile_grid[1]; j++) {
@@ -1607,7 +1607,7 @@ int main()
 
                         float alpha;
                         alpha = min(0.99, con_o[3] * exp(power));
-                        printf("power: %f,\texp: %f\n", power, exp(power));
+                        // printf("power: %f,\texp: %f\n", power, exp(power));
                         // if ((idx_i == i) && (idx_j == j)) if (kk < (from + 256)) printf("(%d, %d | %d, %d) alpha[%d] = %f\n", i, j, k, l, kk, alpha);
                         // if (kk < 256) printf("--------\n");
 

@@ -1,0 +1,25 @@
+# `gs.c` = A single C file Gaussian Splatting renderer
+
+This project is an accurate(to the best of my knowledge) implementation of the Gaussian Splatting project's rendering pipeline. I wrote this program to learn both `C` and `GS` from scratch. Inspired by [Karpathy's llm.c](https://github.com/karpathy/llm.c), I wrote it in a single C file with no external dependency. Just use the `-lm` math flag while compiling. 
+
+
+## Requirements
+- C compiler (`gcc`)
+- ImageMagick
+
+## How to run
+- You can use the `run.sh` script. You can also manually compile and run it. 
+```bash
+chmod +x run.sh # might be required
+./run.sh
+```
+- The final render is the file `render_gs_c.png`
+
+
+
+## TODO
+- [ ] Port to pthreads or openMP for multithreading
+- [ ] Remove debugging code
+
+## DISCLAIMER/WARRANTY
+I give no warranty for this repo. Be precausious and use it. It might break your computer and Im not responsible for it. This repo is meant for research purposes only. Im a beginner C programmer, so this repo might not be the best memory-safe efficient code. Im still learning. I humbly accept any mistakes and stupidity in the code. Im open to pull requests and suggestions. I will take time to implement/merge as Im also a full time student and I need to understand your suggestions completely before adding them.
